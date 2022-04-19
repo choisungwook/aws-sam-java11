@@ -22,6 +22,11 @@
 
 ![](imgs/samdeploy3.PNG)
 
+# 삭제
+```sh
+sam delete
+```
+
 # 참고자료
 * aws java lmabda 공식문서: https://docs.aws.amazon.com/ko_kr/lambda/latest/dg/java-samples.html
 * aws firehose와 lmabda 연동 공식문서: https://docs.aws.amazon.com/ko_kr/lambda/latest/dg/with-kinesis.html
