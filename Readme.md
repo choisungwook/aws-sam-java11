@@ -13,7 +13,12 @@
 * sam build 실행 -> 잘 실행되면 .aws-sam디렉터리가 생성
 ![](imgs/sambuild.PNG)
 
+* sam deploy 실행 -> aws에 배포(apigateway, lambda, role)
+![](imgs/samdeploy1.PNG)
 
+![](imgs/samdeploy2.PNG)
+
+![](imgs/samdeploy3.PNG)
 
 # 참고자료
 * aws java lmabda 공식문서: https://docs.aws.amazon.com/ko_kr/lambda/latest/dg/java-samples.html

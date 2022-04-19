@@ -3,6 +3,7 @@
 
 # aws sam
 .aws-sam
+samconfig.toml
 
 # User-specific stuff
 .idea
