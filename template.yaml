@@ -8,10 +8,16 @@ Globals:
   Function:
     Timeout: 20
 
+Parameters:
+  lambdaName:
+    Type: String
+    Default: "sam-demoapp"
+
 Resources:
   HelloWorldFunction:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
+      FunctionName: !Ref lambdaName
       CodeUri: HelloWorldFunction
       Handler: helloworld.Handler::handleRequest
       Runtime: java11
