@@ -1,5 +1,5 @@
 # 개요
-* cross account java 예제
+* cross account sam(언어: java) 예제
 
 # 아키텍처
 ![](imgs/arch.png)
@@ -10,6 +10,8 @@
 * aws cli 설치 및 aws configure 설정
 
 # 실행방법
+> 상세내용은 docs폴더에 있는 문서 참고
+
 * sam build 실행 -> 잘 실행되면 .aws-sam디렉터리가 생성
 ![](imgs/sambuild.PNG)
 
